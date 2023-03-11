@@ -170,7 +170,14 @@ body{
     border-radius: 10px;
     padding: 10px 0px;
 }
+.presale span{
+    position: absolute;
+    margin-top: 25px;
 
+}
+.presale #press{
+    margin-left: 65%;
+}
 
 @media screen and (max-width: 980px) {
     .bill-board h1{
