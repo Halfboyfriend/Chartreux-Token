@@ -178,7 +178,9 @@ body{
 .presale #press{
     margin-left: 65%;
 }
-
+.presale .card-title{
+    color: #266ced;
+}
 @media screen and (max-width: 980px) {
     .bill-board h1{
     font-size: 2.2em;
