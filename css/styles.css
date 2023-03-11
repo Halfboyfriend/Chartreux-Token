@@ -44,7 +44,7 @@ body{
 }
 
 /* BILL BOARD */
-.bill-board, .dex, .leaderboard, .info, .footer{
+.bill-board, .dex, .leaderboard, .info, .footer, .presale{
     padding: 5% 10%;
     text-align: center;
 }
@@ -134,6 +134,44 @@ body{
     text-transform: italic;
 }
 
+.card{
+    background-color: #151e27;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+.card .card-img-top{
+    height: 200px;
+    border-radius: 20px 20px 0 0;
+}
+
+.card #card-icon{
+    margin-top: -70px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50% 50%;
+    border: 3px solid #fff;
+    margin-bottom: 20px;
+}
+.card h5{
+    margin-bottom: 10px;
+    border-bottom: 4px solid #fff;
+    
+}
+
+.card p .btn{
+    margin-right: 10px;
+    color: #fff;
+}
+
+.card .presale-card{
+    font-size: 12px;
+    background-color: rgb(98, 94, 94);
+    border-radius: 10px;
+    padding: 10px 0px;
+}
+
+
 @media screen and (max-width: 980px) {
     .bill-board h1{
     font-size: 2.2em;
@@ -159,3 +197,7 @@ body{
     margin-bottom: 100px;
 }
 }
+
+
+
+/* CARD FLIPPING */
