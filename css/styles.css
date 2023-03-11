@@ -5,7 +5,6 @@
 }
 body{
     font-family: 'Roboto Slab';
-    /* color: ; */
     background-color: #151e27;
     color: #fff;
 }
@@ -19,7 +18,6 @@ body{
 
     
 }
-
 .top-header .social{
     float: right;
     padding-right: 20px;
@@ -29,6 +27,12 @@ body{
     width: 30px;
     color: #fff;
 }
+
+
+/* NAVBAR */
+
+
+
 
 .button{
     padding-right: 30px;
