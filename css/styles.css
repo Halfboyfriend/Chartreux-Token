@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Slab';
+    /* color: ; */
+    background-color: #151e27;
+    color: #fff;
+}
+
+.top-header{
+    padding: 2% 2%;
+    background-color: rgb(10, 10, 31);
+}
+.brand-img{
+    width: 35px;
+    
+}
+
+.top-header .social{
+    float: right;
+    padding-right: 20px;
+}
+.top-header .social i{
+    margin-right: 20px;
+}
+
+.button{
+    padding-right: 30px;
+}
+
+/* BILL BOARD */
+.bill-board, .dex, .leaderboard, .info, .footer{
+    padding: 5% 10%;
+    text-align: center;
+}
+.bill-board #rt-img{
+    width: 70%;
+}
+
+#bill-text{
+    text-align: end;
+}
+.bill-board h1{
+    font-size: 3em;
+    font-weight: 900;
+    line-height: 1.5em;
+    margin-top: 20px;
+    color: rgb(0, 0, 255);
+}
+
+#dex-item{
+    border: 1px solid gray;
+    padding: 5% 0%;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #1a1e23;
+
+}
+.dex{
+    margin: auto;
+    cursor: pointer;
+}
+
+#dex-content{
+    text-align: center;
+    margin-left: 15%;
+}
+.dex h4{
+    color: rgb(0, 0, 255);
+    font-size: 1em;
+
+}
+.dex p{
+ font-weight: 800;
+}
+
+ .leaderboard .row{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #1a1e23;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.leaderboard #cost-bg{
+    margin-top: 25px;
+    background-color: rgb(0, 0, 255);
+    width: 50px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.leaderboard p{
+    color: #fff;
+    margin-top: 10px;
+}
+.leaderboard h4{
+    font-weight: 900;
+}
+
+.info img{
+    width: 400px;
+}
+
+.footer{
+    margin-top: 50px;
+    border-top: 2px solid gray;
+}
+.footer img{
+    margin-top: 20px;
+    width: 70px;
+}
+.footer .social a{
+    margin-right: 25px;
+}
+.footer p{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-transform: italic;
+}
+
+@media screen and (max-width: 700px) {
+    .bill-board h1{
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.5em;
+    margin-top: 50px;
+    text-align: center;
+}
+.bill-board h3{
+    font-size: 1.1em;
+    color: gray;
+    font-weight: 600;
+}
+.bill-board #bill-text{
+    text-align: center;
+}
+
+.bill-board #rt-img{
+    width: 50%;
+}
+}
