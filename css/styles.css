@@ -140,6 +140,11 @@ body{
     text-transform: italic;
 }
 
+.presale{
+    margin: auto;
+    width: 80%;
+}
+
 .card{
     background-color: #151e27;
     border: 1px solid #fff;
