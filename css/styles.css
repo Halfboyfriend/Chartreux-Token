@@ -55,7 +55,7 @@ body{
     text-align: center;
 }
 .bill-board #rt-img{
-    width: 70%;
+    width: 100%;
     
 }
 
@@ -224,7 +224,7 @@ body{
 
 .bill-board #rt-img{
     margin-top: 100px;
-    width: 45%;
+    width: 100%;
     margin-bottom: 100px;
 }
 .card .card-img-top{
