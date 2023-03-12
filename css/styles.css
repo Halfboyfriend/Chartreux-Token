@@ -139,6 +139,9 @@ body{
     margin-bottom: 0px;
     text-transform: italic;
 }
+.footer i{
+    color: #fff;
+}
 
 .presale{
     margin: auto;
