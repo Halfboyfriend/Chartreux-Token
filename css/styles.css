@@ -127,17 +127,18 @@ p{
 }
 
 .features h4{
-    font-size: 43px;
+    font-size: 25px;
     font-weight: bolder;
 }
+.features p{
+    font-size: 20px;
+}
+
 
 .features .card{
     margin-top: 30px;
     padding: 5% 0%;
     font-size: 15px;
-}
-.features p{
-    font-size: 32px;
 }
 
 .features .card:hover{
@@ -312,6 +313,15 @@ p{
 .info img{
     width: 70%;
 }
+
+.features h4{
+    font-size: 43px;
+    font-weight: bolder;
+}
+.features p{
+    font-size: 32px;
+}
+
 }
 
 
