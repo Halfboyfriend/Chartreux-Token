@@ -308,6 +308,10 @@ p{
 .card .card-img-top{
     height: 350px;
 }
+
+.info img{
+    width: 70%;
+}
 }
 
 
