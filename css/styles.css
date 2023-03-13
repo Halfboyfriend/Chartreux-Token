@@ -50,8 +50,8 @@ body{
     height: 250px;
 }
 /* BILL BOARD */
-.bill-board, .dex, .leaderboard, .info, .footer, .presale{
-    padding: 5% 10%;
+.bill-board, .dex, .leaderboard, .info, .footer, .presale, .intro{
+    padding: 5% 5%;
     text-align: center;
 }
 .bill-board #rt-img{
@@ -95,6 +95,11 @@ body{
 }
 .dex p{
  font-weight: 800;
+}
+
+
+.intro h1{
+    font-size: 3em;
 }
 
  .leaderboard .row{
