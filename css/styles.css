@@ -8,6 +8,11 @@ body{
     background-color: #151e27;
     color: #fff;
 }
+p{
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1.3em;
+}
 
 .top-header{
    padding: 30px 15px 40px 15px ;
@@ -50,7 +55,7 @@ body{
     height: 250px;
 }
 /* BILL BOARD */
-.bill-board, .dex, .leaderboard, .info, .footer, .presale, .intro, .features{
+.bill-board, .dex, .leaderboard, .info, .footer, .presale, .intro, .features, .tokenomics{
     padding: 5% 5%;
     text-align: center;
 }
