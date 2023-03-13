@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Roboto Slab';
+    font-family: 'Roboto';
     background-color: #151e27;
     color: #fff;
 }
@@ -97,6 +97,11 @@ body{
  font-weight: 800;
 }
 
+.intro, .features{
+    text-align: center;
+    padding: 0 13%;
+}
+
 
 .intro h1{
     font-size: 3em;
@@ -106,6 +111,8 @@ body{
 
 
 .features h2{
+    text-align: start;
+    margin-top: 80px;
     font-weight: bolder;
     color: #266ced;
 }
@@ -113,6 +120,7 @@ body{
 .features .card{
     margin-top: 30px;
     padding: 5% 0%;
+    font-size: 15px;
 }
 
 .features .card:hover{
