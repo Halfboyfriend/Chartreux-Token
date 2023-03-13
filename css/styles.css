@@ -50,7 +50,7 @@ body{
     height: 250px;
 }
 /* BILL BOARD */
-.bill-board, .dex, .leaderboard, .info, .footer, .presale, .intro{
+.bill-board, .dex, .leaderboard, .info, .footer, .presale, .intro, .features{
     padding: 5% 5%;
     text-align: center;
 }
@@ -100,8 +100,27 @@ body{
 
 .intro h1{
     font-size: 3em;
+    font-weight: bolder;
+    color: #266ced;
 }
 
+
+.features h2{
+    font-weight: bolder;
+    color: #266ced;
+}
+
+.features .card{
+    margin-top: 30px;
+    padding: 5% 0%;
+}
+
+.features .card:hover{
+    transition: 1s;
+    border: 2px solid #266ced;
+    background-color: aqua;
+    color: #000;
+}
  .leaderboard .row{
     padding-top: 30px;
     padding-bottom: 30px;
