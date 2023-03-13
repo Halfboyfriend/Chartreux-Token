@@ -4,9 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Roboto';
     background-color: #151e27;
-    color: #fff;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #b9b9bf;
 }
 p{
     font-size: 1.2em;
@@ -56,7 +59,7 @@ p{
 }
 /* BILL BOARD */
 .bill-board, .dex, .leaderboard, .info, .footer, .presale, .intro, .features, .tokenomics{
-    padding: 5% 5%;
+    padding: 10px 25px;
     text-align: center;
 }
 .bill-board #rt-img{
