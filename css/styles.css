@@ -6,7 +6,7 @@
 body{
     background-color: #151e27;
     font-family: "IBM Plex Mono", monospace;
-    font-size: 32px;
+    font-size: 17px;
     line-height: 20px;
     font-weight: 400;
     color: #b9b9bf;
@@ -119,16 +119,24 @@ p{
 
 
 .features h2{
+    font-size: 55px;
     text-align: start;
     margin-top: 80px;
     font-weight: bolder;
     color: #266ced;
 }
 
+.features h4{
+    font-size: 32px;
+}
+
 .features .card{
     margin-top: 30px;
     padding: 5% 0%;
     font-size: 15px;
+}
+.features p{
+    font-size: 28px;
 }
 
 .features .card:hover{
@@ -224,6 +232,9 @@ p{
     border-radius: 10px;
     padding: 10px 0px;
 }
+.presale{
+    margin-top: 100px;
+}
 .presale span{
     position: absolute;
     margin-top: 25px;
@@ -236,13 +247,17 @@ p{
     color: #fff;
 }
 
-.tokenomics h2{
+.tokenomics h2, .info h2{
+    margin-top: 30px;
     font-size: 2.5em;
     font-weight: bolder;
     color: #266ced;
     margin-bottom: 15px;
 }
 @media screen and (max-width: 980px) {
+    body{
+        font-size: 32px;
+    }
     .brand-img{
         margin-left: -30px;
     }
