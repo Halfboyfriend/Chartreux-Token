@@ -232,6 +232,13 @@ p{
 .presale .card-title{
     color: #fff;
 }
+
+.tokenomics h2{
+    font-size: 2.5em;
+    font-weight: bolder;
+    color: #266ced;
+    margin-bottom: 15px;
+}
 @media screen and (max-width: 980px) {
     .brand-img{
         margin-left: -30px;
