@@ -62,8 +62,8 @@ p{
     padding: 10px 25px;
     text-align: center;
 }
-.bill-board{
-    background-image: url("../images/bg1.gif");
+.bill-board #bill-text{
+    background-image: url("../images/bg2.gif");
     background-repeat: no-repeat;
     background-size: contain;
     background-blend-mode: color-burn;
@@ -81,7 +81,7 @@ p{
     font-weight: bolder;
     line-height: 1.5em;
     margin-top: 20px;
-    color: #266ced;
+    color: #fff;
 }
 
 #dex-item{
@@ -290,7 +290,7 @@ p{
     line-height: 1.5em;
     margin-top: 50px;
     text-align: center;
-    padding: auto;
+    padding: 10px 20px;
 }
 
 #banner{
@@ -299,7 +299,7 @@ p{
 }
 .bill-board h3{
     font-size: 1.5em;
-    color: gray;
+    color: #266ced;
     font-weight: 600;
     margin-bottom: 10px;
 }
