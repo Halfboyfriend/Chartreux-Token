@@ -62,6 +62,12 @@ p{
     padding: 10px 25px;
     text-align: center;
 }
+.bill-board{
+    background-image: url("../images/bg1.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-blend-mode: color-burn;
+}
 .bill-board #rt-img{
     width: 100%;
     
