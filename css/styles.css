@@ -58,7 +58,7 @@ p{
     height: 250px;
 }
 /* BILL BOARD */
-.bill-board, .dex, .leaderboard, .info, .footer, .presale, .intro, .features, .tokenomics{
+.bill-board, .dex, .leaderboard, .info, .footer, .presale, .intro, .features, .tokenomics, .freq{
     padding: 10px 25px;
     text-align: center;
 }
@@ -250,15 +250,22 @@ p{
     color: #fff;
 }
 
-.tokenomics h2, .info h2{
+.tokenomics h2, .info h2, .freq h2{
     margin-top: 30px;
     font-size: 2.5em;
     font-weight: bolder;
     color: #266ced;
     margin-bottom: 15px;
+    text-align: start;
 }
 
-
+.freq{
+    text-align: start;
+    width: 70%;
+    margin: auto;
+    font-size: 25px;
+    line-height: 1.5em;
+}
 
 
 @media screen and (max-width: 980px) {
