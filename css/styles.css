@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* #151e27 */
 body{
     background-color: #151e27;
     font-family: "IBM Plex Mono", monospace;
@@ -338,8 +339,12 @@ p{
 .features p{
     font-size: 32px;
 }
-.tokenomics img{
+.tokenomics img, #bill-text{
     display: none;
+}
+.intro{
+    margin-top: -70px;
+
 }
 
 }
