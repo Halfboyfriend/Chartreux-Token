@@ -280,10 +280,11 @@ p{
         margin-left: -30px;
     }
     .bill-board #bill-text{
-        background-image: url("../images/bg2.gif");
+        background-image: url("../images/bg4.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-blend-mode: color-burn;
+        color: #000;
     
     }
     .bill-board h1{
@@ -293,6 +294,7 @@ p{
     margin-top: 50px;
     text-align: center;
     padding: 10px 20px;
+    color: #000;
 }
 
 #banner{
