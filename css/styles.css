@@ -62,12 +62,7 @@ p{
     padding: 10px 25px;
     text-align: center;
 }
-.bill-board #bill-text{
-    background-image: url("../images/bg2.gif");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-blend-mode: color-burn;
-}
+
 .bill-board #rt-img{
     width: 100%;
     
@@ -81,7 +76,7 @@ p{
     font-weight: bolder;
     line-height: 1.5em;
     margin-top: 20px;
-    color: #fff;
+    color: #266ced;
 }
 
 #dex-item{
@@ -283,6 +278,13 @@ p{
     }
     .brand-img{
         margin-left: -30px;
+    }
+    .bill-board #bill-text{
+        background-image: url("../images/bg2.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: color-burn;
+    
     }
     .bill-board h1{
     font-size: 2em;
