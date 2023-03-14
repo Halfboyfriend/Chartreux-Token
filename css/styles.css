@@ -331,6 +331,9 @@ p{
 .features p{
     font-size: 32px;
 }
+.tokenomics img{
+    display: none;
+}
 
 }
 
